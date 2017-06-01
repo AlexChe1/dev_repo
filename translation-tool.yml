@@ -27,3 +27,9 @@ logging:
     com:
       wktsslot:
         translationservice: INFO
+            
+---            
+spring:  
+  profiles: development
+server:  
+  port: 9006                
