@@ -1,10 +1,4 @@
-spring:
-  profiles:
-    active: development
----
-
-spring:
-  profiles: development
+spring:  
   datasource:
     url: jdbc:postgresql://localhost:5432/tms_tst_db
     username: tms_tst_user
