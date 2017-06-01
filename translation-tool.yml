@@ -5,8 +5,9 @@ spring:
 
 spring:
   profiles: development
+  
 server:
-  port: 8003
+  port: 9003
 
 eureka:
   client:
